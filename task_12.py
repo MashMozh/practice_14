@@ -1,4 +1,4 @@
-def hole_or_not(words: list[str]) -> tuple[int, int]:
+def hole_or_not(words: list) -> tuple:
     """
     Counts the number of letters with and without holes
     in a list of words.
@@ -26,7 +26,7 @@ def hole_or_not(words: list[str]) -> tuple[int, int]:
     return letters_with_hole, letters_without_hole
 
 
-def words_two_holes(words: list[str]) -> list[str]:
+def words_two_holes(words: list) -> list:
     """
     Creates a list of words that contain two or more
     letters with holes.
