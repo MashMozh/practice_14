@@ -1,14 +1,14 @@
 def get_valid_input() -> list:
     """
-    The function accepts user input and validates that
-    exactly 10 integers separated by spaces are entered.
+    This function accepts user input and checks that
+    the entered integers are space-separated.
 
     Returns:
-        list: A list of 10 integers entered by the user.
+        list: A list of integers entered by the user.
     """
 
     while True:
-        numbers = input('Введите 10 целых чисел через пробел: ').split()
+        numbers = input('Введите целые числа через пробел: ').split()
 
         try:
             return [int(num) for num in numbers]
