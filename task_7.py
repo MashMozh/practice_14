@@ -17,6 +17,15 @@ def get_valid_input() -> list:
 
 
 def even_or_odd(x: list) -> tuple:
+    """
+    The function calculates the sum of even and odd numbers in a list.
+
+    Args:
+        x (list): A list of integers to process.
+
+    Returns:
+        tuple: A tuple containing (sum_of_evens, sum_of_odds)
+    """
     new_numbers = []
     even_numbers = []
     odd_numbers = []
@@ -41,7 +50,7 @@ def main() -> None:
     even_sum, odd_sum = even_or_odd(numbers)
 
     print('Сумма четных элементов: ', even_sum)
-    print('Сумма нечетных элементов: ',  odd_sum)
+    print('Сумма нечетных элементов: ', odd_sum)
 
 
 if __name__ == '__main__':
