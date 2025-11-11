@@ -24,7 +24,8 @@ def text_input() -> list:
 def sorted_words(text: list) -> None:
     """
     The function processes text lines, cleans words from punctuation,
-    counts word frequencies and prints words sorted by frequency and appearance order.
+    counts word frequencies and prints words sorted by frequency 
+    and appearance order.
 
     Args:
         text (list): A list of text lines to process.
@@ -61,4 +62,3 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
-
